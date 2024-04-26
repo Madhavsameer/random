@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dear Crush❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="open.css" />
+    <script>
+      function openUp() {
+        const $opentop = document.querySelector("#opentop");
+        const $top = document.querySelector("#top");
+        const $front = document.querySelector("#front");
+        const $back = document.querySelector("#back");
+        const $letter = document.querySelector("#letter");
+        const $button = document.querySelector("button");
+
+        $opentop.beginElement();
+        $top.style.zIndex = 2;
+
+        $top.classList.add("animate");
+        $front.classList.add("animate");
+        $back.classList.add("animate");
+        $button.classList.add("animate");
+        $letter.classList.add("animate");
+      }
+    </script>
+ 
+  </head>
+  <body>
+    <div class="text">
+      <h1>Hey Bachheee! Listen this is for you 💖....</h1>
+      <!-- <h2>Anjan banke mile sii apaa lekin pta nhi kado jaan ban gye tum</h2> -->
+    </div>
+    <div id="envelope">
+      <div id="back">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          height="300"
+          width="300"
+        >
+          <polygon
+            points="0,100 300,100 300,300 0,300"
+            style="fill: #4a274a; stroke: none; stroke-width: 0"
+          />
+        </svg>
+      </div>
+      <div id="front">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          height="300"
+          width="300"
+        >
+          <polygon
+            points="0,100 150,200 300,100 300,300 0,300"
+            style="fill: #2abad0; stroke: #ffffff; stroke-width: 3"
+          />
+        </svg>
+      </div>
+      <div id="top">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          height="300"
+          width="300"
+        >
+          <polygon
+            points="0,100 150,200 300,100"
+            style="fill: #2abad0; stroke: #ffffff; stroke-width: 2"
+          >
+            <animate
+              id="opentop"
+              attributeName="points"
+              dur="0.5s"
+              fill="freeze"
+              begin="indefinite"
+              from="0,100 150,200 300,100"
+              to="0,100 150,0 300,100"
+            />
+          </polygon>
+        </svg>
+      </div>
+
+      <div id="letter">
+        <h1>For My <span>Dearest Crush</span></h1>
+
+        <!-- <img src="https://i.postimg.cc/5yZQnDpb/ukraine-7424066-640.webp" />-->
+        <p>
+            Dear Sakshu❤️,<br>
+        
+          You are the Best person yet I have met in 2024, so allow me to
+          express my intense love for you. 
+           I feel like You are the most precious thing in my
+          life. You have fascinated my heart and seized my mind with your
+          magnetic presence in my life.
+           Ek baat kahni thi tenu "Tu jaha bhi hai jaisi bhi hai khush rah bass❤️"  <br/>
+          <br />
+          
+          I take this opportunity to ask for your consent if you want to be my
+          Half Girlfriend.This letter is a token of my love for you. <br />
+          If You Accept
+          <a href="new.html">Click Here!</a>🙂
+          
+        </p>
+      </div>
+      <button onclick="openUp()">Click Here</button>
+    </div>
+   <center> <audio  autoplay  controls loop src="hey.mp4.mp4">
+  </audio></center>
+
+  <!-- <font color="white"><center><h2>Anjan banke mile sii apaa lekin pta nhi kado jaan ban gye tum</h2> -->
+  <!-- </center></font> -->
+  
+  </body>
+    </html>
