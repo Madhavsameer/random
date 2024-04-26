@@ -97,6 +97,9 @@ div.beloved:before {
     linear-gradient(90deg, #b40001 50vmin, transparent 50vmin) 35vmin 25vmin/40vmin
       40vmin no-repeat;
 }
+#nu{
+  margin-top: 150px;
+}
 
 div.beloved:after {
   width: 100vmin;
