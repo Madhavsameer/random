@@ -12,7 +12,7 @@ body {
     top: calc(50vh - 200px);
     left: calc(50vw - 150px);
     width: 300px;
-    height: 320px;
+    height: 300px;
   }
   
   #envelope > * {
